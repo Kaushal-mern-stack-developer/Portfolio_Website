@@ -23,7 +23,7 @@ const About = () => {
             <h1 className='font-bold text-3xl mb-5 text-emerald-700 mt-10'>Education & Training</h1>
             <div className="overflow-x-auto rounded-lg border border-black shadow-sm">
                 
-                <table className="w-full border-collapse bg-white text-left text-xs md:text-sm text-gray-500 border table-fixed md:table-auto">
+                <table className="w-full border-collapse bg-white text-right md:text-left text-xs md:text-sm text-gray-500 border table-fixed md:table-auto">
                     <thead className="bg-emerald-700 md:text-xl border-2 uppercase text-black">
                         <tr className='border-2 border-black '>
                             <th className="px-2 py-2 md:px-6 md:py-4 w-[25%] md:w-auto">Qualification</th>

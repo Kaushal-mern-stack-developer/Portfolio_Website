@@ -18,7 +18,7 @@ const Home = () => {
           <div className="flex">
             <h1 className='font-bold my-4 text-lg md:text-4xl'>Hello, I'm a 
               {/* <span className="text-emerald-700 font-bold">MERN Stack Developer</span> */}
-                <ReactTyped className='m-2 text-emerald-700 font-bold text-xl md:text-4xl'
+                <ReactTyped className='m-2 text-emerald-700 font-bold text-lg md:text-4xl'
                 strings={[
                   "Web Developer","Full Stack Developer","MERN Stack Developer"
                 ]}
