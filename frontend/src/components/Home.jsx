@@ -16,7 +16,7 @@ const Home = () => {
         <div className="md:w-1/2 order-2 md:order-1">
           <span className="text-xl font-semibold">Welcome to My Portfolio</span>
           <div className="flex">
-            <h1 className='font-bold my-4 text-xl md:text-4xl'>Hello, I'm a 
+            <h1 className='font-bold my-4 text-lg md:text-4xl'>Hello, I'm a 
               {/* <span className="text-emerald-700 font-bold">MERN Stack Developer</span> */}
                 <ReactTyped className='m-2 text-emerald-700 font-bold text-xl md:text-4xl'
                 strings={[
@@ -65,7 +65,7 @@ const Home = () => {
 
         <div className="md:w-1/2 order-1 md:order-2">
           <div className="image">
-            <img src={main_image} alt="main_profile" className="rounded-full shadow-xl h-80 w-80 md:h-120 md:w-120 m-2 md:ml-45" />
+            <img src={main_image} alt="main_profile" className="rounded-full shadow-xl h-70 w-70 md:h-120 md:w-120 m-2 md:ml-45" />
           </div>
         </div>
 
