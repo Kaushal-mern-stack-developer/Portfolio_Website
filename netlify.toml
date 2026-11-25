@@ -1,0 +1,12 @@
+[build]
+  # The deployable site is the React + Vite app in the frontend/ folder.
+  base = "frontend"
+  # Install from the lockfile first (including devDependencies such as vite),
+  # so the build works even when dependencies weren't pre-installed.
+  command = "npm ci --include=dev && npm run build"
+  # Relative to the base directory (frontend/dist).
+  publish = "dist"
+
+[build.environment]
+  # Vite 8 requires Node ^20.19.0 or >=22.12.0.
+  NODE_VERSION = "22"
